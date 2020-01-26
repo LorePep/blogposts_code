@@ -1,2 +1,2 @@
 # blogposts_code
-Code for blog posts
+This repo contains code from various blog posts I wrote.
