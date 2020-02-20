@@ -9,9 +9,11 @@ Also images are generated to evaluate the process.
 As an example
 
 Generated camera frames and 3D points.
+
 ![3d world](https://github.com/LorePep/blogposts_code/blob/master/eight-points/3d_world.png)
 
 Generated camera images.
+
 ![images](https://github.com/LorePep/blogposts_code/blob/master/eight-points/images.png)
 
 Colors represent matching points.
