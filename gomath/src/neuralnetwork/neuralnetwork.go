@@ -7,7 +7,7 @@ import (
 	"gonum.org/v1/gonum/mat"
 )
 
-// NeuralNetwork represets a Neural Network
+// NeuralNetwork represents a Neural Network.
 type NeuralNetwork interface {
 	// Forward computes forward propagation.
 	Forward(*mat.Dense) *mat.Dense

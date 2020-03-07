@@ -38,7 +38,7 @@ func main() {
 		lossHistory[i] = neuralnetwork.ComputeSumSquaresLoss(labels, preds)
 	}
 
-	fmt.Printf("predictions after %d epoch %v, expected %v\n", numEpochs, preds, labels)
+	fmt.Printf("predictions after %d epoch, got %v, expected %v\n", numEpochs, preds, labels)
 
 	err := plotLoss(lossHistory)
 	if err != nil {

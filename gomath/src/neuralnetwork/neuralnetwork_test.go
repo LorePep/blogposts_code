@@ -7,7 +7,7 @@ import (
 	"gonum.org/v1/gonum/mat"
 )
 
-// Note: All the tests desired output has been generated with numpy.
+// Note: All the test desired outputs have been generated with numpy.
 func TestForward(t *testing.T) {
 	nn := SumSquaresNN{
 		w1: mat.NewDense(2, 2, []float64{
