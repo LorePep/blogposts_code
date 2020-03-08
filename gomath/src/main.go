@@ -67,7 +67,8 @@ func plotLoss(loss []float64) error {
 		return err
 	}
 
-	if err := p.Save(5*vg.Inch, 5*vg.Inch, "loss_history.png"); err != nil {
+	err = p.Save(5*vg.Inch, 5*vg.Inch, "loss_history.png")
+	if err != nil {
 		return err
 	}
 
